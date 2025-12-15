@@ -151,13 +151,6 @@ If the server starts correctly, the backend will be available at:
 
 - http://localhost:8000
 
-Quick health check:
-
-```bash
-curl http://localhost:8000/health
-# or open the URL above in a browser
-```
-
 ---
 
 ### 3. Frontend setup
@@ -180,7 +173,7 @@ If successful, the frontend will be available at:
 
 The frontend:
 
-- Renders the Waguri AI UI (header, welcome hero, language toggle, central chat card).
+- Renders the Waguri AI UI (header, welcome hero, central chat card, etc.).
 - Sends POST requests to the backend at `http://localhost:8000/api/chat` via `fetch`.
 
 Ensure the endpoint URL in the frontend code is set to `http://localhost:8000/api/chat`.
@@ -209,8 +202,7 @@ Ensure the endpoint URL in the frontend code is set to `http://localhost:8000/ap
 
 ## Research Context
 
-The backend model is based on **Qwen2.5-0.5B**, part of the Qwen2.5 family of open-weight language models that support multiple languages and show strong performance across a variety of NLP benchmarks.
-The `lumicero/Qwen2.5-bilingual-xlora` model is a fine-tuned variant using **LoRA / X-LoRA** (Mixture of LoRA Experts) designed for bilingual English–Indonesian instruction-following.
+The backend model is based on **Qwen2.5-0.5B-Instruct**, part of the Qwen2.5 family of open-weight language models that supports multiple languages ​​and demonstrates strong performance across various NLP benchmarks. The `lumicero/Qwen2.5-bilingual-xlora` model is an enhanced variant using the **X-LoRA Architecture** (Mixture of Low-Rank Adapter Experts) designed to follow English–Indonesian bilingual instructions. The adapters were trained using the `indonlp/cendol_collection_v2` dataset (for Indonesian) & `Open-Orca/OpenOrca` (for English). The adapter creation process involves two stages: the first is to train a **LoRA Expert** for each language, and the second is to combine the two LoRA Experts using the X-LoRA Architecture. The use of this architecture has proven effective in combining the capabilities of two adapters from different domains and equally inheriting both adapter capabilities.
 
 ---
 
