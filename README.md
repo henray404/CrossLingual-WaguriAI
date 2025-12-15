@@ -216,7 +216,7 @@ The `lumicero/Qwen2.5-bilingual-xlora` model is a fine-tuned variant using **LoR
 You can update these with your final, public URLs:
 
 - Google Colab project (training and evaluation notebook):  
-  https://colab.research.google.com/drive/170KiI3fIibR0g3i0pcochtHwopnoPblq?usp=sharing
+  [Test](https://colab.research.google.com/drive/170KiI3fIibR0g3i0pcochtHwopnoPblq?usp=sharing)
 
 - Hugging Face model `lumicero/Qwen2.5-bilingual-xlora`:  
   https://huggingface.co/lumicero/Qwen2.5-bilingual-xlora
