@@ -216,8 +216,6 @@ The `lumicero/Qwen2.5-bilingual-xlora` model is a fine-tuned variant using **LoR
 
 ## Important Links
 
-You can update these with your final, public URLs:
-
 - Google Colab project (training and evaluation notebook):  
   [Colab Notebook](https://colab.research.google.com/drive/170KiI3fIibR0g3i0pcochtHwopnoPblq?usp=sharing)
 
