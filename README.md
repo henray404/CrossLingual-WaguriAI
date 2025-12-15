@@ -204,7 +204,7 @@ Ensure the endpoint URL in the frontend code is set to `http://localhost:8000/ap
 
 ---
 
-## Research Context (Short)
+## Research Context
 
 The backend model is based on **Qwen2.5-0.5B**, part of the Qwen2.5 family of open-weight language models that support multiple languages and show strong performance across a variety of NLP benchmarks.
 The `lumicero/Qwen2.5-bilingual-xlora` model is a fine-tuned variant using **LoRA / X-LoRA** (Mixture of LoRA Experts) designed for bilingual English–Indonesian instruction-following.
