@@ -1,14 +1,17 @@
-# Waguri AI
+# Waguri AI 🌸
 Cross-lingual chatbot web application (Indonesian and English) powered by Qwen2.5-0.5B with Mixture of LoRA Experts (X-LoRA).
 
 Waguri AI is a bilingual chatbot web app built as a demonstration of fine-tuning **Qwen2.5-0.5B** using **Mixture of LoRA Experts (X-LoRA)** for the English–Indonesian pair.
+
+<p align="center">
+  <img src="public\Screenshot 2025-12-15 120504.png" alt="Waguri AI main screen" width="720" />
+</p>
 
 The application consists of:
 - **Frontend**: Next.js (App Router) + TypeScript + Tailwind CSS.
 - **Backend**: FastAPI (Python) that loads the model `lumicero/Qwen2.5-bilingual-xlora` from Hugging Face and serves local inference.
 
 ---
-
 ## Features
 
 - Bilingual chatbot that can answer in Indonesian and English.
