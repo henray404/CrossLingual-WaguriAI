@@ -213,3 +213,8 @@ The backend model is based on **Qwen2.5-0.5B-Instruct**, part of the Qwen2.5 fam
 
 - Hugging Face model `lumicero/Qwen2.5-bilingual-xlora`:  
   [lumicero/Qwen2.5-bilingual-xlora](https://huggingface.co/lumicero/Qwen2.5-bilingual-xlora)
+
+## Contributors
+- luminolous (Syauqi Nabil Tasri 5054241040)
+- henray404 (Mochammad Henry Alifian 5054241024)
+- RXhy (Royan Harits Yustanto 5054241022)
